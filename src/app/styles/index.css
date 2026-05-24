@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #16120f;
+  background:
+    radial-gradient(circle at top left, rgba(240, 179, 109, 0.35), transparent 35%),
+    radial-gradient(circle at bottom right, rgba(31, 111, 120, 0.18), transparent 30%),
+    #f4ecde;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f4ecde;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
